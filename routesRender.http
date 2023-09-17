@@ -1,0 +1,27 @@
+POST https://nodejssandbox.onrender.com/videos
+Content-type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro vídeo",
+    "duration": 180
+}
+
+###
+
+GET https://nodejssandbox.onrender.com/videos
+
+###
+
+PUT https://nodejssandbox.onrender.com/videos/9d4a873d-5271-48d1-859c-cfba82c1a3ab
+Content-type: application/json
+
+{
+    "title": "Video 02 02",
+    "description": "Esse é o primeiro vídeo",
+    "duration": 180
+}
+
+###
+
+DELETE https://nodejssandbox.onrender.com/videos/7d80d9f5-7ab3-4541-8972-8472f309d51c
